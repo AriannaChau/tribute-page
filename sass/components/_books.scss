@@ -12,13 +12,21 @@
 
   .image-div {
     height: 200px;
-    background-image: url('../img/origins.jpg');
+    background-image: url('../img/astrophysics.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
   }
   .text-div {
     background-color: white;
+  }
+
+  @include tablet-breakpoint {
+    @include grid-column(6);
+  }
+
+  @include desktop-breakpoint {
+    @include grid-column(3);
   }
 }
 
@@ -28,13 +36,21 @@
 
   .image-div {
     height: 200px;
-    background-image: url('../img/deathbyblackhole.jpg');
+    background-image: url('../img/welcome.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
   }
   .text-div {
     background-color: white;
+  }
+
+  @include tablet-breakpoint {
+    @include grid-column(6);
+  }
+
+  @include desktop-breakpoint {
+    @include grid-column(3);
   }
 }
 
@@ -52,6 +68,14 @@
   .text-div {
     background-color: white;
   }
+
+  @include tablet-breakpoint {
+    @include grid-column(6);
+  }
+
+  @include desktop-breakpoint {
+    @include grid-column(3);
+  }
 }
 
 .fourth-book {
@@ -60,12 +84,20 @@
 
   .image-div {
     height: 200px;
-    background-image: url('../img/skyisnotthelimit.jpg');
+    background-image: url('../img/origins.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
   }
   .text-div {
     background-color: white;
+  }
+
+  @include tablet-breakpoint {
+    @include grid-column(6);
+  }
+
+  @include desktop-breakpoint {
+    @include grid-column(3);
   }
 }

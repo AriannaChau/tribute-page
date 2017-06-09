@@ -30,10 +30,18 @@ body, html {
   background-color: $primary-color;
 }
 
+// png image
+
 .transition {
-  width: 60vh;
-  top: 45%;
+  top: 20%;
   left: 5%;
-  transform: translateY(-50%);
+  height: 100%;
+  width: 100%;
+  transform: translateY(-25%);
+  margin: 0 auto;
   position: absolute;
+
+  @include tablet-breakpoint {
+
+    }
 }

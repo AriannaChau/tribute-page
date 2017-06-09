@@ -420,7 +420,8 @@ h1 {
 h2 {
   font-family: "Cinzel";
   text-align: center;
-  margin-top: 20px; }
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 h3 {
   font-family: "Raleway";
@@ -453,10 +454,12 @@ body, html {
   background-color: #d198b6; }
 
 .transition {
-  width: 60vh;
-  top: 45%;
+  top: 20%;
   left: 5%;
-  transform: translateY(-50%);
+  height: 100%;
+  width: 100%;
+  transform: translateY(-25%);
+  margin: 0 auto;
   position: absolute; }
 
 .title h1 {
@@ -485,16 +488,25 @@ body, html {
   height: 20%;
   background-color: #EFEFEF;
   margin-bottom: 15px;
-  margin-top: 15px;
   box-shadow: 0 0.125rem 0.1875rem 0 rgba(0, 0, 0, 0.4); }
   .first-book .image-div {
     height: 200px;
-    background-image: url("../img/origins.jpg");
+    background-image: url("../img/astrophysics.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
   .first-book .text-div {
     background-color: white; }
+  @media only screen and (min-width: 600px) {
+    .first-book {
+      width: calc(50% - 30px);
+      float: left;
+      margin-left: 20px; } }
+  @media only screen and (min-width: 992px) {
+    .first-book {
+      width: calc(25% - 25px);
+      float: left;
+      margin-left: 20px; } }
 
 .second-book {
   width: calc(100% - 40px);
@@ -503,16 +515,25 @@ body, html {
   height: 20%;
   background-color: #EFEFEF;
   margin-bottom: 15px;
-  margin-top: 15px;
   box-shadow: 0 0.125rem 0.1875rem 0 rgba(0, 0, 0, 0.4); }
   .second-book .image-div {
     height: 200px;
-    background-image: url("../img/deathbyblackhole.jpg");
+    background-image: url("../img/welcome.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
   .second-book .text-div {
     background-color: white; }
+  @media only screen and (min-width: 600px) {
+    .second-book {
+      width: calc(50% - 30px);
+      float: left;
+      margin-left: 20px; } }
+  @media only screen and (min-width: 992px) {
+    .second-book {
+      width: calc(25% - 25px);
+      float: left;
+      margin-left: 20px; } }
 
 .third-book {
   width: calc(100% - 40px);
@@ -521,7 +542,6 @@ body, html {
   height: 20%;
   background-color: #EFEFEF;
   margin-bottom: 15px;
-  margin-top: 15px;
   box-shadow: 0 0.125rem 0.1875rem 0 rgba(0, 0, 0, 0.4); }
   .third-book .image-div {
     height: 200px;
@@ -531,6 +551,16 @@ body, html {
     background-size: contain; }
   .third-book .text-div {
     background-color: white; }
+  @media only screen and (min-width: 600px) {
+    .third-book {
+      width: calc(50% - 30px);
+      float: left;
+      margin-left: 20px; } }
+  @media only screen and (min-width: 992px) {
+    .third-book {
+      width: calc(25% - 25px);
+      float: left;
+      margin-left: 20px; } }
 
 .fourth-book {
   width: calc(100% - 40px);
@@ -539,16 +569,25 @@ body, html {
   height: 20%;
   background-color: #EFEFEF;
   margin-bottom: 15px;
-  margin-top: 15px;
   box-shadow: 0 0.125rem 0.1875rem 0 rgba(0, 0, 0, 0.4); }
   .fourth-book .image-div {
     height: 200px;
-    background-image: url("../img/skyisnotthelimit.jpg");
+    background-image: url("../img/origins.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
   .fourth-book .text-div {
     background-color: white; }
+  @media only screen and (min-width: 600px) {
+    .fourth-book {
+      width: calc(50% - 30px);
+      float: left;
+      margin-left: 20px; } }
+  @media only screen and (min-width: 992px) {
+    .fourth-book {
+      width: calc(25% - 25px);
+      float: left;
+      margin-left: 20px; } }
 
 .video-container {
   width: calc(100% - 40px);
