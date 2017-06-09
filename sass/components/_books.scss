@@ -33,16 +33,10 @@
 .second-book {
   @include grid-column(12);
   @include book-setting;
+  @extend .first-book;
 
   .image-div {
-    height: 200px;
     background-image: url('../img/welcome.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  .text-div {
-    background-color: white;
   }
 
   @include tablet-breakpoint {
@@ -57,16 +51,11 @@
 .third-book {
   @include grid-column(12);
   @include book-setting;
+  @extend .first-book;
 
   .image-div {
     height: 200px;
     background-image: url('../img/spacechronicles.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  .text-div {
-    background-color: white;
   }
 
   @include tablet-breakpoint {
@@ -81,16 +70,10 @@
 .fourth-book {
   @include grid-column(12);
   @include book-setting;
+  @extend .first-book;
 
   .image-div {
-    height: 200px;
     background-image: url('../img/origins.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  .text-div {
-    background-color: white;
   }
 
   @include tablet-breakpoint {

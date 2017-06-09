@@ -1,33 +1,24 @@
 body, html {
   height: 100%
 }
+
 // parallax
 
 .parallax {
   background-image: url('../img/neiltyson.jpg');
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  @include parallax-details;
 }
 
 .parallax2 {
   background-image: url('../img/galaxy.jpg');
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  @include parallax-details;
 }
 
 //quote in parallax
+
 .quote {
   font-size: 25px;
   text-align: center;
-  background-color: $primary-color;
 }
 
 // png image
@@ -42,6 +33,12 @@ body, html {
   position: absolute;
 
   @include tablet-breakpoint {
-
+    left: 15%;
+    width: 70%;
     }
+
+  @include desktop-breakpoint {
+    left: 25%;
+    width: 50%;
+  }
 }
