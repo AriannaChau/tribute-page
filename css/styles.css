@@ -451,7 +451,10 @@ body, html {
 
 .quote {
   font-size: 25px;
-  text-align: center; }
+  text-align: center;
+  border: 2px solid;
+  border-color: #27365e;
+  background-image: linear-gradient(to bottom, #d198b6, #8cacdd, #27365e); }
 
 .transition {
   top: 20%;
