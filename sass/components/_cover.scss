@@ -6,3 +6,19 @@
   font-size: 20px;
   left: 5%;
 }
+
+.header-quote {
+  position: absolute;
+  width: 150px;
+  height: 90px;
+  background-color: #e5cfc4;
+  font-family: $body-font;
+  text-align: center;
+  top: 80%;
+  right: 5%;
+
+  @include desktop-breakpoint {
+    top: 15%;
+    right: 10%;
+  }
+}

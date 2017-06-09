@@ -428,6 +428,10 @@ h3 {
   font-family: "Raleway";
   text-align: center; }
 
+h4 {
+  font-family: "Cinzel";
+  font-size: 18px; }
+
 body, html {
   height: 100%; }
 
@@ -484,29 +488,43 @@ body, html {
   font-size: 20px;
   left: 5%; }
 
+.header-quote {
+  position: absolute;
+  width: 150px;
+  height: 90px;
+  background-color: #e5cfc4;
+  font-family: "Raleway";
+  text-align: center;
+  top: 80%;
+  right: 5%; }
+  @media only screen and (min-width: 992px) {
+    .header-quote {
+      top: 15%;
+      right: 10%; } }
+
 .about {
   width: calc(100% - 40px);
   float: left;
   margin-left: 20px;
   width: 100%;
   margin: 0;
+  padding-bottom: 15px;
   background-color: #945f5f; }
 
-.early-life {
-  background-color: blue; }
-  @media only screen and (min-width: 600px) {
-    .early-life {
-      width: calc(50% - 30px);
-      float: left;
-      margin-left: 20px; } }
+@media only screen and (min-width: 600px) {
+  .early-life {
+    width: calc(50% - 30px);
+    float: left;
+    margin-left: 20px; } }
 
-.career {
-  background-color: yellow; }
-  @media only screen and (min-width: 600px) {
-    .career {
-      width: calc(50% - 30px);
-      float: left;
-      margin-left: 20px; } }
+@media only screen and (min-width: 600px) {
+  .career {
+    width: calc(50% - 30px);
+    float: left;
+    margin-left: 20px; } }
+
+about img {
+  with: 80%; }
 
 .books {
   width: calc(100% - 40px);
