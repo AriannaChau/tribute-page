@@ -13,10 +13,27 @@ body, html {
   position: relative;
 }
 
+.parallax2 {
+  background-image: url('../img/galaxy.jpg');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 //quote in parallax
 .quote {
-  height: 100px;
   font-size: 25px;
   text-align: center;
   background-color: #d198b6;
+}
+
+.transition {
+  width: 100%;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  position: absolute;
 }

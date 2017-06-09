@@ -1,0 +1,75 @@
+.books {
+  @include grid-column(12);
+  background-color: #8cacdd;
+  margin: 0;
+  width: 100%;
+}
+
+.first-book {
+  @include grid-column(12);
+  height: 20%;
+  border: 1px solid green;
+  background-color: white;
+
+  .image-div {
+    height: 200px;
+    background-image: url('../img/origins.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .text-div {
+    background-color: blue;
+  }
+}
+
+.second-book {
+  @include grid-column(12);
+  height: 20%;
+  border: 1px solid green;
+
+  .image-div {
+    height: 200px;
+    background-image: url('../img/deathbyblackhole.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .text-div {
+    background-color: blue;
+  }
+}
+
+.third-book {
+  @include grid-column(12);
+  height: 20%;
+  border: 1px solid green;
+
+  .image-div {
+    height: 200px;
+    background-image: url('../img/spacechronicles.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .text-div {
+    background-color: blue;
+  }
+}
+
+.fourth-book {
+  @include grid-column(12);
+  height: 20%;
+  border: 1px solid green;
+
+  .image-div {
+    height: 200px;
+    background-image: url('../img/skyisnotthelimit.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .text-div {
+    background-color: blue;
+  }
+}
