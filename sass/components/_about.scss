@@ -1,0 +1,22 @@
+.about {
+  @include grid-column(12);
+  width: 100%;
+  margin: 0;
+  background-color: #945f5f;
+}
+
+.early-life {
+  background-color: blue;
+
+  @include tablet-breakpoint {
+    @include grid-column(6);
+  }
+}
+
+.career {
+  background-color: yellow;
+
+  @include tablet-breakpoint {
+    @include grid-column(6);
+  }
+}
