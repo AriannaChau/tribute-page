@@ -27,12 +27,12 @@ body, html {
 .quote {
   font-size: 25px;
   text-align: center;
-  background-color: #d198b6;
+  background-color: $primary-color;
 }
 
 .transition {
-  width: 100%;
-  top: 50%;
+  width: 60vh;
+  top: 45%;
   left: 5%;
   transform: translateY(-50%);
   position: absolute;

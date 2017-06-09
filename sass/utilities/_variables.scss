@@ -3,7 +3,14 @@
 $tablet-breakpoint: "only screen and (min-width: 600px)";
 $desktop-breakpoint: "only screen and (min-width: 992px)";
 
+// color variables
+
+$primary-color: #d198b6;
+$secondary-color: #8cacdd;
+$tertiary-color: #27365e;
+$accent-grey: #EFEFEF;
 
 // typography variables
 
-$header-font: 'Cinzel', sans-serif;
+$header-font: 'Cinzel';
+$body-font: 'Raleway';

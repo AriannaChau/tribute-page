@@ -1,15 +1,14 @@
 .books {
   @include grid-column(12);
-  background-color: #8cacdd;
-  margin: 0;
+  background-color: $secondary-color;
   width: 100%;
+  margin: 0;
 }
 
 .first-book {
   @include grid-column(12);
-  height: 20%;
-  border: 1px solid green;
-  background-color: white;
+  @include book-setting;
+
 
   .image-div {
     height: 200px;
@@ -19,14 +18,13 @@
     background-size: contain;
   }
   .text-div {
-    background-color: blue;
+    background-color: white;
   }
 }
 
 .second-book {
   @include grid-column(12);
-  height: 20%;
-  border: 1px solid green;
+  @include book-setting;
 
   .image-div {
     height: 200px;
@@ -36,14 +34,13 @@
     background-size: contain;
   }
   .text-div {
-    background-color: blue;
+    background-color: white;
   }
 }
 
 .third-book {
   @include grid-column(12);
-  height: 20%;
-  border: 1px solid green;
+  @include book-setting;
 
   .image-div {
     height: 200px;
@@ -53,14 +50,13 @@
     background-size: contain;
   }
   .text-div {
-    background-color: blue;
+    background-color: white;
   }
 }
 
 .fourth-book {
   @include grid-column(12);
-  height: 20%;
-  border: 1px solid green;
+  @include book-setting;
 
   .image-div {
     height: 200px;
@@ -70,6 +66,6 @@
     background-size: contain;
   }
   .text-div {
-    background-color: blue;
+    background-color: white;
   }
 }

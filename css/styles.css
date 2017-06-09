@@ -415,7 +415,16 @@ template {
   display: none; }
 
 h1 {
-  font-family: "Cinzel", sans-serif; }
+  font-family: "Cinzel"; }
+
+h2 {
+  font-family: "Cinzel";
+  text-align: center;
+  margin-top: 20px; }
+
+h3 {
+  font-family: "Raleway";
+  text-align: center; }
 
 body, html {
   height: 100%; }
@@ -444,8 +453,8 @@ body, html {
   background-color: #d198b6; }
 
 .transition {
-  width: 100%;
-  top: 50%;
+  width: 60vh;
+  top: 45%;
   left: 5%;
   transform: translateY(-50%);
   position: absolute; }
@@ -466,16 +475,18 @@ body, html {
   float: left;
   margin-left: 20px;
   background-color: #8cacdd;
-  margin: 0;
-  width: 100%; }
+  width: 100%;
+  margin: 0; }
 
 .first-book {
   width: calc(100% - 40px);
   float: left;
   margin-left: 20px;
   height: 20%;
-  border: 1px solid green;
-  background-color: white; }
+  background-color: #EFEFEF;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  box-shadow: 0 0.125rem 0.1875rem 0 rgba(0, 0, 0, 0.4); }
   .first-book .image-div {
     height: 200px;
     background-image: url("../img/origins.jpg");
@@ -483,14 +494,17 @@ body, html {
     background-repeat: no-repeat;
     background-size: contain; }
   .first-book .text-div {
-    background-color: blue; }
+    background-color: white; }
 
 .second-book {
   width: calc(100% - 40px);
   float: left;
   margin-left: 20px;
   height: 20%;
-  border: 1px solid green; }
+  background-color: #EFEFEF;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  box-shadow: 0 0.125rem 0.1875rem 0 rgba(0, 0, 0, 0.4); }
   .second-book .image-div {
     height: 200px;
     background-image: url("../img/deathbyblackhole.jpg");
@@ -498,14 +512,17 @@ body, html {
     background-repeat: no-repeat;
     background-size: contain; }
   .second-book .text-div {
-    background-color: blue; }
+    background-color: white; }
 
 .third-book {
   width: calc(100% - 40px);
   float: left;
   margin-left: 20px;
   height: 20%;
-  border: 1px solid green; }
+  background-color: #EFEFEF;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  box-shadow: 0 0.125rem 0.1875rem 0 rgba(0, 0, 0, 0.4); }
   .third-book .image-div {
     height: 200px;
     background-image: url("../img/spacechronicles.jpg");
@@ -513,14 +530,17 @@ body, html {
     background-repeat: no-repeat;
     background-size: contain; }
   .third-book .text-div {
-    background-color: blue; }
+    background-color: white; }
 
 .fourth-book {
   width: calc(100% - 40px);
   float: left;
   margin-left: 20px;
   height: 20%;
-  border: 1px solid green; }
+  background-color: #EFEFEF;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  box-shadow: 0 0.125rem 0.1875rem 0 rgba(0, 0, 0, 0.4); }
   .fourth-book .image-div {
     height: 200px;
     background-image: url("../img/skyisnotthelimit.jpg");
@@ -528,6 +548,62 @@ body, html {
     background-repeat: no-repeat;
     background-size: contain; }
   .fourth-book .text-div {
-    background-color: blue; }
+    background-color: white; }
+
+.video-container {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
+  width: 100%;
+  margin: 0;
+  background-color: #27365e;
+  color: white; }
+
+.video {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 15px; }
+  .video .video-wrapper {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative; }
+    .video .video-wrapper embed,
+    .video .video-wrapper object,
+    .video .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%; }
+  @media only screen and (min-width: 600px) {
+    .video {
+      width: calc(50% - 30px);
+      float: left;
+      margin-left: 20px; } }
+
+.second-video {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px; }
+  .second-video .video-wrapper {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative; }
+    .second-video .video-wrapper embed,
+    .second-video .video-wrapper object,
+    .second-video .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%; }
+  @media only screen and (min-width: 600px) {
+    .second-video {
+      width: calc(50% - 30px);
+      float: left;
+      margin-left: 20px; } }
 
 /*# sourceMappingURL=styles.css.map */
