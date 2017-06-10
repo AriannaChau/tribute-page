@@ -30,6 +30,53 @@
 
 .second-video {
   @include grid-column(12);
+  margin-bottom: 15px;
+
+  .video-wrapper {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+
+    embed,
+    object,
+    iframe {
+      @include position(absolute, 0 null null 0);
+      @include size(100%);
+    }
+  }
+
+  @include tablet-breakpoint {
+    @include grid-column(6);
+  }
+}
+
+.third-video {
+  @include grid-column(12);
+  margin-bottom: 15px;
+
+  .video-wrapper {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+
+    embed,
+    object,
+    iframe {
+      @include position(absolute, 0 null null 0);
+      @include size(100%);
+    }
+  }
+
+  @include tablet-breakpoint {
+    @include grid-column(6);
+  }
+}
+
+.fourth-video {
+  @include grid-column(12);
+  margin-bottom: 15px;
 
   .video-wrapper {
     height: 0;

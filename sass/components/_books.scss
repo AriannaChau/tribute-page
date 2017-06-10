@@ -19,14 +19,25 @@
   }
   .text-div {
     background-color: white;
+    padding: 20px;
+
+    h4 {
+      margin-bottom: 10px;
+    }
   }
 
   @include tablet-breakpoint {
     @include grid-column(6);
+    .text-div {
+      min-height: 200px;
+    }
   }
 
   @include desktop-breakpoint {
     @include grid-column(3);
+    .text-div {
+      min-height: 300px;
+    }
   }
 }
 
@@ -74,6 +85,78 @@
 
   .image-div {
     background-image: url('../img/origins.jpg');
+  }
+
+  @include tablet-breakpoint {
+    @include grid-column(6);
+  }
+
+  @include desktop-breakpoint {
+    @include grid-column(3);
+  }
+}
+
+.fifth-book {
+  @include grid-column(12);
+  @include book-setting;
+  @extend .first-book;
+
+  .image-div {
+    background-image: url('../img/blackhole.jpg');
+  }
+
+  @include tablet-breakpoint {
+    @include grid-column(6);
+  }
+
+  @include desktop-breakpoint {
+    @include grid-column(3);
+  }
+}
+
+.sixth-book {
+  @include grid-column(12);
+  @include book-setting;
+  @extend .first-book;
+
+  .image-div {
+    background-image: url('../img/plutofiles.jpg');
+  }
+
+  @include tablet-breakpoint {
+    @include grid-column(6);
+  }
+
+  @include desktop-breakpoint {
+    @include grid-column(3);
+  }
+}
+
+.seventh-book {
+  @include grid-column(12);
+  @include book-setting;
+  @extend .first-book;
+
+  .image-div {
+    background-image: url('../img/skylimit.jpg');
+  }
+
+  @include tablet-breakpoint {
+    @include grid-column(6);
+  }
+
+  @include desktop-breakpoint {
+    @include grid-column(3);
+  }
+}
+
+.eighth-book {
+  @include grid-column(12);
+  @include book-setting;
+  @extend .first-book;
+
+  .image-div {
+    background-image: url('../img/oneuniverse.jpg');
   }
 
   @include tablet-breakpoint {
