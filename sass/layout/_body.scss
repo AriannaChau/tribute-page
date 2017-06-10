@@ -37,11 +37,11 @@ body, html {
 
   @include tablet-breakpoint {
     left: 15%;
-    width: 70%;
+    width: 60%;
     }
 
   @include desktop-breakpoint {
-    left: 25%;
-    width: 50%;
+    left: 35%;
+    width: 35%;
   }
 }

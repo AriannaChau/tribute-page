@@ -476,11 +476,11 @@ body, html {
   @media only screen and (min-width: 600px) {
     .transition {
       left: 15%;
-      width: 70%; } }
+      width: 60%; } }
   @media only screen and (min-width: 992px) {
     .transition {
-      left: 25%;
-      width: 50%; } }
+      left: 35%;
+      width: 35%; } }
 
 .title h1 {
   color: white;
